@@ -1,8 +1,8 @@
 # Installation
 
-## Aureli-Cli
+## Aurelia-Cli
 
-Run `npm i aurelia-form-validation--save` from your project root.
+Run `npm i aurelia-form-validation --save` from your project root.
 
 Aurelia-form-validationmakes use of `extend`. So, add following to the `build.bundles.dependencies` section of `aurelia-project/aurelia.json`.
 
