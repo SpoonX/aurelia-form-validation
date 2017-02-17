@@ -1,3 +1,13 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/SpoonX/aurelia-form-validation/compare/v1.0.1...v1.0.2) (2017-02-17)
+
+
+### Bug Fixes
+
+* **renderer:** fix result format ([d230694](https://github.com/SpoonX/aurelia-form-validation/commit/d230694))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/SpoonX/aurelia-form-validation/compare/v1.0.0...v1.0.1) (2017-02-17)
 

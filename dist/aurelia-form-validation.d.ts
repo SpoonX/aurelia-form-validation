@@ -23,14 +23,17 @@ export declare class ValidationRenderer {
   /**
      * Get form group.
      *
-     * @param {string} propertyName
+     * @param {string}  propertyName
+     * @param {boolean} [valid]
      *
      * @returns {*}
      */
   getGroup({
-    propertyName
+    propertyName,
+    valid
   }?: {
-    propertyName?: any
+    propertyName?: any,
+    valid?: any
   }): any;
   
   /**

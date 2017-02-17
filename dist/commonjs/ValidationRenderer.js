@@ -30,7 +30,12 @@ var ValidationRenderer = exports.ValidationRenderer = function () {
   };
 
   ValidationRenderer.prototype.getGroup = function getGroup(_ref) {
-    var propertyName = _ref.propertyName;
+    var propertyName = _ref.propertyName,
+        valid = _ref.valid;
+
+    if (valid) {
+      return;
+    }
 
     var group = this.groups[propertyName];
 
@@ -68,9 +73,9 @@ var ValidationRenderer = exports.ValidationRenderer = function () {
       }
 
       var _ref6 = _ref3;
-      var error = _ref6.error;
+      var result = _ref6.result;
 
-      this.remove(error);
+      this.remove(result);
     }
 
     for (var _iterator2 = instructions.render, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
@@ -86,9 +91,9 @@ var ValidationRenderer = exports.ValidationRenderer = function () {
       }
 
       var _ref7 = _ref5;
-      var error = _ref7.error;
+      var result = _ref7.result;
 
-      this.add(error);
+      this.add(result);
     }
   };
 

@@ -19,7 +19,11 @@ export let ValidationRenderer = class ValidationRenderer {
     group.state = 'error';
   }
 
-  getGroup({ propertyName }) {
+  getGroup({ propertyName, valid }) {
+    if (valid) {
+      return;
+    }
+
     let group = this.groups[propertyName];
 
     if (!group) {
@@ -44,15 +48,15 @@ export let ValidationRenderer = class ValidationRenderer {
 
   render(instructions) {
     for (let _ref of instructions.unrender) {
-      let { error } = _ref;
+      let { result } = _ref;
 
-      this.remove(error);
+      this.remove(result);
     }
 
     for (let _ref2 of instructions.render) {
-      let { error } = _ref2;
+      let { result } = _ref2;
 
-      this.add(error);
+      this.add(result);
     }
   }
 };
