@@ -29,7 +29,7 @@ Only change the controller if you know what you're doing.
 
 ## Installation
 
-### Aureli-Cli
+### Aurelia-Cli
 
 Run `npm i aurelia-form-validation--save` from your project root.
 
