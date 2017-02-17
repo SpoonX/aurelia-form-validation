@@ -33,13 +33,12 @@ Only change the controller if you know what you're doing.
 
 Run `npm i aurelia-form-validation--save` from your project root.
 
-Aurelia-form-validationmakes use of `extend`. So, add following to the `build.bundles.dependencies` section of `aurelia-project/aurelia.json`.
+Add following to the `build.bundles.dependencies` section of `aurelia-project/aurelia.json`.
 
 ```js
 {
   "dependencies": [
     // ...
-    "extend",
     {
       "name": "aurelia-form-validation",
       "path": "../node_modules/aurelia-form-validation/dist/amd",
