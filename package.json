@@ -1,0 +1,64 @@
+{
+  "name": "aurelia-form-validation",
+  "version": "0.0.1",
+  "description": "A plugin that enables validation for aurelia form.",
+  "keywords": [
+    "aurelia",
+    "spoonx",
+    "plugin"
+  ],
+  "homepage": "https://github.com/SpoonX/aurelia-form-validation#readme",
+  "main": "dist/commonjs/aurelia-form-validation.js",
+  "typings": "dist/aurelia-form-validation.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpoonX/aurelia-form-validation.git"
+  },
+  "author": "SpoonX <info@spoonx.nl>",
+  "contributors": [
+    "RWOverdijk <wesley@spoonx.nl> (http://spoonx.nl)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpoonX/aurelia-form-validation/issues"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "preversion": "npm test",
+    "version": "npm run build && gulp prepare-package && git add -A dist doc/CHANGELOG.md bower.json",
+    "postpublish": "git push upstream master && git push upstream --tags"
+  },
+  "jspm": {
+    "registry": "npm",
+    "main": "aurelia-form-validation",
+    "format": "amd",
+    "directories": {
+      "dist": "dist/amd"
+    },
+    "dependencies": {
+      "aurelia-config": "^0.1.1",
+      "aurelia-dependency-injection": "^1.0.0",
+      "aurelia-validation": "^1.0.0-beta.1.0.1"
+    },
+    "devDependencies": {
+      "aurelia-dependency-injection": "^1.0.0",
+      "aurelia-pal-browser": "^1.0.0",
+      "aurelia-polyfills": "^1.0.0",
+      "fetch": "github:github/fetch@^1.0.0"
+    }
+  },
+  "dependencies": {
+    "aurelia-config": "^0.1.1",
+    "aurelia-dependency-injection": "^1.0.0",
+    "aurelia-validation": "^1.0.0-beta.1.0.1"
+  },
+  "devDependencies": {
+    "spoonx-tools": "^1.0.0-0"
+  },
+  "aurelia": {
+    "build": {
+      "resources": []
+    }
+  }
+}
