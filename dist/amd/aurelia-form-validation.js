@@ -15,7 +15,7 @@ define(['exports', 'aurelia-logging', 'aurelia-config', 'aurelia-validation', '.
       return;
     }
 
-    config.validation.controller = aurelia.container.get(_ValidationController.ValidationController);
+    formConfig.validation.controller = aurelia.container.get(_ValidationController.ValidationController);
   }
 
   var config = exports.config = {

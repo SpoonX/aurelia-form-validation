@@ -12,7 +12,7 @@ export function configure(aurelia, config) {
     return;
   }
 
-  config.validation.controller = aurelia.container.get(ValidationController);
+  formConfig.validation.controller = aurelia.container.get(ValidationController);
 }
 
 export const config = {

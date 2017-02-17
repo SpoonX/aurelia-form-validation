@@ -1,3 +1,13 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/SpoonX/aurelia-form-validation/compare/v1.0.0...v1.0.1) (2017-02-17)
+
+
+### Bug Fixes
+
+* **project:** use form config for validator ([f9f78cf](https://github.com/SpoonX/aurelia-form-validation/commit/f9f78cf))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-02-17)
 

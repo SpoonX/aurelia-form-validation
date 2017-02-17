@@ -11,7 +11,7 @@ System.register(['aurelia-logging', 'aurelia-config', 'aurelia-validation', './V
       return;
     }
 
-    config.validation.controller = aurelia.container.get(ValidationController);
+    formConfig.validation.controller = aurelia.container.get(ValidationController);
   }
 
   _export('configure', configure);

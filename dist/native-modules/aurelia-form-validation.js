@@ -21,7 +21,7 @@ function configure(aurelia, config) {
     return;
   }
 
-  config.validation.controller = aurelia.container.get(_ValidationController.ValidationController);
+  formConfig.validation.controller = aurelia.container.get(_ValidationController.ValidationController);
 }
 
 var config = exports.config = {
