@@ -26,11 +26,16 @@ export class ValidationRenderer {
   /**
    * Get form group.
    *
-   * @param {string} propertyName
+   * @param {string}  propertyName
+   * @param {boolean} [valid]
    *
    * @returns {*}
    */
-  getGroup({propertyName}) {
+  getGroup({propertyName, valid}) {
+    if (valid) {
+      return;
+    }
+
     let group = this.groups[propertyName];
 
     if (!group) {
@@ -64,12 +69,12 @@ export class ValidationRenderer {
    * @param {{render: {}, unrender: {}}} instructions
    */
   render(instructions) {
-    for (let {error} of instructions.unrender) {
-      this.remove(error);
+    for (let {result} of instructions.unrender) {
+      this.remove(result);
     }
 
-    for (let {error} of instructions.render) {
-      this.add(error);
+    for (let {result} of instructions.render) {
+      this.add(result);
     }
   }
 }
