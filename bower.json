@@ -1,6 +1,6 @@
 {
   "name": "aurelia-form-validation",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A plugin that enables validation for aurelia form.",
   "keywords": [
     "aurelia",
@@ -22,6 +22,6 @@
   "dependencies": {
     "aurelia-config": "^0.1.1",
     "aurelia-dependency-injection": "^1.0.0",
-    "aurelia-validation": "^1.0.0-beta.1.0.1"
+    "aurelia-validation": "^1.0.0"
   }
 }
