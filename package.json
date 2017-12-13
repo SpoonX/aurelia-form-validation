@@ -37,7 +37,7 @@
       "dist": "dist/amd"
     },
     "dependencies": {
-      "aurelia-config": "^0.1.1",
+      "aurelia-config": "^0.2.0-0",
       "aurelia-dependency-injection": "^1.0.0",
       "aurelia-validation": "^1.0.0"
     },
@@ -49,13 +49,13 @@
     },
     "jspmPackage": true,
     "peerDependencies": {
-      "aurelia-config": "^0.1.1",
+      "aurelia-config": "^0.2.0-0",
       "aurelia-dependency-injection": "^1.0.0",
       "aurelia-validation": "^1.0.0"
     }
   },
   "dependencies": {
-    "aurelia-config": "^0.1.1",
+    "aurelia-config": "^0.2.0-0",
     "aurelia-dependency-injection": "^1.0.0",
     "aurelia-validation": "^1.0.0"
   },
