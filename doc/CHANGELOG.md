@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/SpoonX/aurelia-form-validation/compare/v1.1.0...v1.2.0) (2017-12-13)
+
+
+### Bug Fixes
+
+* Updated aurelia-config to version 0.2.0-0 in package.json ([4703749](https://github.com/SpoonX/aurelia-form-validation/commit/4703749))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/SpoonX/aurelia-form-validation/compare/v1.0.2...v1.1.0) (2017-06-07)
 

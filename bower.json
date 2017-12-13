@@ -1,6 +1,6 @@
 {
   "name": "aurelia-form-validation",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A plugin that enables validation for aurelia form.",
   "keywords": [
     "aurelia",
@@ -20,7 +20,7 @@
     "url": "https://github.com/SpoonX/aurelia-form-validation"
   },
   "dependencies": {
-    "aurelia-config": "^0.1.1",
+    "aurelia-config": "^0.2.0-0",
     "aurelia-dependency-injection": "^1.0.0",
     "aurelia-validation": "^1.0.0"
   }
